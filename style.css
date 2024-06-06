@@ -6,6 +6,7 @@ body {
     height: 100vh;
     background-color: hsl(0, 0%, 90%);
 }
+
 .calculator {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
@@ -61,4 +62,93 @@ button:active {
 
 .operBtn:active {
     background-color: hsl(39, 100%, 55%);
+}
+
+@media screen and (max-width:360px) {
+    .calculator{
+        width: 300px;
+    }
+    .buttons {
+        grid-template-columns: repeat(4, 0.3fr);
+    }
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    #result {
+        padding: 10px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .calculator{
+        width: 350px;
+    }
+    .buttons {
+        grid-template-columns: repeat(4, 0.5fr);
+    }
+    button {
+        width: 70px;
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    #result {
+        padding: 15px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .calculator{
+        width: 350px;
+    }
+    .buttons {
+        grid-template-columns: repeat(4, 0.5fr);
+    }
+    button {
+        width: 70px;
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    #result {
+        padding: 15px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .calculator{
+        width: 300px;
+    }
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    #result {
+        padding: 15px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 163px) {
+    .calculator{
+        width: 100px;
+    }
+    .buttons {
+        gap: 8px;
+        padding: 8px;
+    }
+    button {
+        width: 8px;
+        height: 8px;
+        font-size: 0.4rem;
+        padding: px;
+    }
+    #result {
+        padding: 5px;
+        font-size: 0.3rem;
+    }
 }
