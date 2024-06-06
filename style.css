@@ -13,6 +13,7 @@ body {
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
+    animation: cal 2s ease 0s 1 normal forwards;
 }
 
 #result {
@@ -151,4 +152,16 @@ button:active {
         padding: 5px;
         font-size: 0.3rem;
     }
+}
+
+@keyframes cal {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
