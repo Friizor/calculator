@@ -9,5 +9,10 @@ function clearInput(){
 }
 
 function counting() {
-    result.value = eval(result.value);
+    try{
+        result.value = eval(result.value);
+    }
+    catch{
+        result.value = "Error";
+    }
 }
