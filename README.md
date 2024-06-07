@@ -1,4 +1,10 @@
 <h1>JavaScript Calculator</h1>
+<div align="center">
+    <a href="https://friizor.github.io/calculator/" target="_blank">
+        <img src="https://img.shields.io/badge/Demo-Link-brightgreen" alt="Demo Link">
+    </a><br>
+    <img src="https://github.com/Friizor/calculator/assets/153310182/aa4f21b6-a241-4b1b-9732-b7a40fe6d5aa" height="350px" alt="Screenshot">
+</div>
 
 Lightweight Calculator: A simple and efficient calculator built with HTML, CSS, and JavaScript for performing basic arithmetic operations. Great for learning web development fundamentals.
 
