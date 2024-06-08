@@ -17,3 +17,19 @@ Lightweight Calculator: A simple and efficient calculator built with HTML, CSS, 
 </ul>
 
 <p>This project serves as a practical demonstration of web development principles and can be a valuable learning resource for aspiring developers.  We welcome contributions from all skill levels, and your involvement can help shape the future of this calculator application.</p>
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Friizor/calculator.git
+   ```
+2. Navigate to the project directory:
+`````bash
+cd calculator
+`````
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
+
