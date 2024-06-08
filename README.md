@@ -18,7 +18,7 @@ Lightweight Calculator: A simple and efficient calculator built with HTML, CSS, 
 
 <p>This project serves as a practical demonstration of web development principles and can be a valuable learning resource for aspiring developers.  We welcome contributions from all skill levels, and your involvement can help shape the future of this calculator application.</p>
 
-### Installation
+## Installation
 
 1. Clone the repository:
 ```bash
